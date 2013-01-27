@@ -8,9 +8,9 @@ public class Constr {
 
     JPanel cont = new JPanel();
 
-    public Constr(int x, int y, int width, int heigth, String text, JFrame jFrame) {
+    public Constr(int x, int y, int width, int heigth, String text, JFrame jFrame, String name) {
         JButton b = new JButton(text);
-        b.setName(text);
+        b.setName(name);
         b.setBounds(x, y, heigth, width);
         cont.setLayout(null);
         cont.add(b);
